@@ -740,16 +740,20 @@ Jika menggunakan GUI TinyCore:
 ### Screenshot Konfigurasi IP Client LAN
 <img width="902" height="494" alt="Konfigurasi IP Client LAN" src="https://github.com/user-attachments/assets/233f675e-319a-4165-b241-7afb11aa145a" />
 
+
 ### Pengujian Ping Client LAN ke Gateway
 <img width="379" height="163" alt="Pengujian ping client LAN ke gateway" src="https://github.com/user-attachments/assets/78dd52f0-93a0-4a43-9d9a-3ec009b642b6" />
+
 
 
 ### Pengujian Ping Client LAN ke Server DMZ
 <img width="384" height="118" alt="Pengujian ping client LAN server DMZ" src="https://github.com/user-attachments/assets/31758030-ec7a-4088-b7ce-2917bf030368" />
 
 
+
 ### Pengujian Akses Web Server DMZ dari Client LAN
 <img width="895" height="497" alt="pengujian akses web server DMZ dari client LAN" src="https://github.com/user-attachments/assets/ce962ad5-b402-4f85-9f80-af7678e2d8be" />
+
 
 
 Ping ke gateway Cisco:
