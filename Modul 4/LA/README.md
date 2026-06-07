@@ -102,6 +102,10 @@ Sebelum konfigurasi dilakukan, siapkan topologi terlebih dahulu.
 ---
 
 # 6. Konfigurasi MikroTik ISP
+### Screenshot Konfigurasi MikroTik
+
+*MikroTik Configuration* <img width="892" height="488" alt="Konfigurasi IP Address Mikrotik" src="https://github.com/user-attachments/assets/c86823a5-d294-4e9c-91d5-201e6127d687" />
+
 
 ## 6.1 Tujuan
 
