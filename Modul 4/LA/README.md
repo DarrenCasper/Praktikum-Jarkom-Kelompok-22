@@ -18,6 +18,7 @@ Tujuan dari tugas ini adalah:
 ## 2. Topologi Jaringan dan Perangkat yang Digunakan
 
 *Topologi Jaringan*
+
 ![gambar1](assets/topologi tumod modul 4 jarkom.png)
 
 | Perangkat            | Fungsi                                           |
