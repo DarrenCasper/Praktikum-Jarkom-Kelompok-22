@@ -574,18 +574,6 @@ Ambil screenshot:
 ---
 
 # 8. Konfigurasi Cisco Router
-### Konfigurasi Interface Cisco Router
-<img width="888" height="497" alt="konfigurasi interface cisco router" src="https://github.com/user-attachments/assets/007ce7c3-08c9-4994-9cad-3bff108899c6" />
-
-### Konfigurasi Routing Cisco Router
-<img width="890" height="505" alt="konfigurasi routing cisco router" src="https://github.com/user-attachments/assets/e7e19315-6365-4747-a0c9-00df40929c55" />
-
-### Pengujian Ping Cisco Router ke FortiGate
-<img width="896" height="490" alt="pengujian ping cisco router ke fortigate" src="https://github.com/user-attachments/assets/cf661cae-f7ad-456e-af80-dede0c527721" />
-
-### Pengujian Ping Cisco Router ke Server DMZ
-<img width="893" height="495" alt="pengujian ping cisco router ke server DMZ" src="https://github.com/user-attachments/assets/4192e583-0a9e-4b39-b61c-acb5cde18e33" />
-
 
 ## 8.1 Tujuan
 
@@ -650,6 +638,8 @@ Atau:
 ```bash
 wr
 ```
+### Screenshot Konfigurasi Interface Cisco Router
+<img width="888" height="497" alt="konfigurasi interface cisco router" src="https://github.com/user-attachments/assets/007ce7c3-08c9-4994-9cad-3bff108899c6" />
 
 ---
 
@@ -687,6 +677,16 @@ Ambil screenshot:
 * `show ip route`
 * Ping ke `10.20.20.1`
 * Ping ke `192.168.20.10`
+
+### Konfigurasi Routing Cisco Router
+<img width="890" height="505" alt="konfigurasi routing cisco router" src="https://github.com/user-attachments/assets/e7e19315-6365-4747-a0c9-00df40929c55" />
+
+### Screenshot Pengujian Ping Cisco Router ke FortiGate
+<img width="896" height="490" alt="pengujian ping cisco router ke fortigate" src="https://github.com/user-attachments/assets/cf661cae-f7ad-456e-af80-dede0c527721" />
+
+### Pengujian Ping Cisco Router ke Server DMZ
+<img width="893" height="495" alt="pengujian ping cisco router ke server DMZ" src="https://github.com/user-attachments/assets/4192e583-0a9e-4b39-b61c-acb5cde18e33" />
+
 
 ---
 
