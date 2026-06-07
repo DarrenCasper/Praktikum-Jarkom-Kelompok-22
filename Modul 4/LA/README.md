@@ -1,4 +1,4 @@
-# Laporan Tugas Modul 4 — Firewall dan NAT
+<img width="826" height="908" alt="konfigurasi vip fortigate" src="https://github.com/user-attachments/assets/c2215bd9-2f3b-4bbe-bded-ef194c153464" /># Laporan Tugas Modul 4 — Firewall dan NAT
 
 ## 1. Overview
 
@@ -120,6 +120,10 @@ MikroTik ISP digunakan sebagai router luar. MikroTik harus:
 ---
 
 ## 6.2 DHCP Client pada `ether1`
+### Screenshot Konfigurasi DHCP Client MikroTik
+
+*DHCP Client MikroTik Configuration* <img width="900" height="489" alt="Konfigurasi DHCP Client Mikrotik" src="https://github.com/user-attachments/assets/b7726247-b1fd-4f7b-b486-ea4703798048" />
+
 
 Interface `ether1` diarahkan ke Cloud/lab, sehingga IP didapat secara otomatis.
 
@@ -169,6 +173,10 @@ Cek konfigurasi IP:
 ---
 
 ## 6.4 NAT Masquerade MikroTik
+### Screenshot Konfigurasi NAT MikroTik
+
+*NAT MikroTik Configuration* <img width="899" height="503" alt="Konfigurasi NAT Mikrotik" src="https://github.com/user-attachments/assets/8feb21a8-c399-471d-b95e-4de5c58f92e6" />
+
 
 NAT masquerade digunakan agar jaringan di belakang MikroTik dapat keluar ke jaringan luar menggunakan IP interface `ether1`.
 
@@ -185,6 +193,10 @@ Cek konfigurasi NAT:
 ---
 
 ## 6.5 Static Route MikroTik
+### Screenshot Konfigurasi routing MikroTik
+
+*Routing MikroTik Configuration* <img width="891" height="493" alt="Konfigurasi routing Mikrotik" src="https://github.com/user-attachments/assets/976a3b72-7f89-4854-8eef-438b35928009" />
+
 
 MikroTik perlu mengetahui bahwa jaringan LAN dan DMZ berada di belakang FortiGate. Oleh karena itu, tambahkan route menuju LAN dan DMZ melalui IP FortiGate `10.10.10.2`.
 
@@ -209,6 +221,10 @@ Cek routing table:
 ---
 
 ## 6.6 Pengujian MikroTik
+### Screenshot pengujian ping Mikrotik ke FortiGate
+
+<img width="654" height="368" alt="pengujian ping mikrotik ke fortigate" src="https://github.com/user-attachments/assets/0b01b97f-cb6f-4299-abd7-0e578052272e" />
+
 
 Tes koneksi dari MikroTik ke FortiGate:
 
@@ -264,6 +280,9 @@ Password : 22
 ---
 
 ## 7.3 Konfigurasi Interface FortiGate
+### Screenshot Konfigurasi Interface FortiGate
+
+<img width="890" height="824" alt="konfigurasi interface fortigate" src="https://github.com/user-attachments/assets/232d4858-a9e1-480e-ac90-701b5bc93764" />
 
 Masuk ke CLI FortiGate, lalu jalankan:
 
@@ -303,6 +322,10 @@ show system interface port3
 ---
 
 ## 7.4 Routing FortiGate
+### Screenshot Konfigurasi Routing FortiGate
+
+<img width="887" height="815" alt="Konfigurasi routing fortigate" src="https://github.com/user-attachments/assets/5d2d1413-9b43-4475-84c7-1a846445fb39" />
+
 
 Tambahkan default route ke MikroTik ISP:
 
@@ -365,6 +388,9 @@ show firewall address
 ---
 
 ## 7.6 Policy LAN ke WAN
+### Konfigurasi Firewall Policy FortiGate
+
+<img width="891" height="906" alt="konfigurasi firewall policy" src="https://github.com/user-attachments/assets/4cc160e6-e2a7-4e61-b086-e82376e688ff" />
 
 Policy ini digunakan agar Client LAN bisa mengakses jaringan luar.
 
@@ -420,6 +446,10 @@ Penjelasan:
 ---
 
 ## 7.8 VIP / Port Forwarding ke Server DMZ
+### Konfigurasi VIP FortiGate
+
+<img width="826" height="908" alt="konfigurasi vip fortigate" src="https://github.com/user-attachments/assets/3582249a-5a0f-435a-88a1-3f6220fda0c2" />
+
 
 VIP digunakan supaya Client WAN dapat mengakses web server DMZ melalui IP WAN FortiGate, yaitu `10.10.10.2`.
 
@@ -497,6 +527,10 @@ Policy ini boleh dipakai selama proses instalasi package. Setelah praktikum sele
 ---
 
 ## 7.11 Pengujian FortiGate
+### Screenshot Pengujian Ping FortiGate ke server DMZ
+
+<img width="833" height="907" alt="pengujian ping fortigate ke server DMZ" src="https://github.com/user-attachments/assets/4be94cb7-af30-4a53-aa47-5a94c1468b51" />
+
 
 Tes ke MikroTik:
 
@@ -540,6 +574,18 @@ Ambil screenshot:
 ---
 
 # 8. Konfigurasi Cisco Router
+### Konfigurasi Interface Cisco Router
+<img width="888" height="497" alt="konfigurasi interface cisco router" src="https://github.com/user-attachments/assets/007ce7c3-08c9-4994-9cad-3bff108899c6" />
+
+### Konfigurasi Routing Cisco Router
+<img width="890" height="505" alt="konfigurasi routing cisco router" src="https://github.com/user-attachments/assets/e7e19315-6365-4747-a0c9-00df40929c55" />
+
+### Pengujian Ping Cisco Router ke FortiGate
+<img width="896" height="490" alt="pengujian ping cisco router ke fortigate" src="https://github.com/user-attachments/assets/cf661cae-f7ad-456e-af80-dede0c527721" />
+
+### Pengujian Ping Cisco Router ke Server DMZ
+<img width="893" height="495" alt="pengujian ping cisco router ke server DMZ" src="https://github.com/user-attachments/assets/4192e583-0a9e-4b39-b61c-acb5cde18e33" />
+
 
 ## 8.1 Tujuan
 
@@ -691,6 +737,20 @@ Jika menggunakan GUI TinyCore:
 ---
 
 ## 9.3 Pengujian Client LAN
+### Screenshot Konfigurasi IP Client LAN
+<img width="902" height="494" alt="Konfigurasi IP Client LAN" src="https://github.com/user-attachments/assets/233f675e-319a-4165-b241-7afb11aa145a" />
+
+### Pengujian Ping Client LAN ke Gateway
+<img width="379" height="163" alt="Pengujian ping client LAN ke gateway" src="https://github.com/user-attachments/assets/78dd52f0-93a0-4a43-9d9a-3ec009b642b6" />
+
+
+### Pengujian Ping Client LAN ke Server DMZ
+<img width="384" height="118" alt="Pengujian ping client LAN server DMZ" src="https://github.com/user-attachments/assets/31758030-ec7a-4088-b7ce-2917bf030368" />
+
+
+### Pengujian Akses Web Server DMZ dari Client LAN
+<img width="895" height="497" alt="pengujian akses web server DMZ dari client LAN" src="https://github.com/user-attachments/assets/ce962ad5-b402-4f85-9f80-af7678e2d8be" />
+
 
 Ping ke gateway Cisco:
 
@@ -825,16 +885,28 @@ ping 192.168.20.10
 
 Ambil screenshot:
 
-* Konfigurasi IP Client WAN
-* Ping ke `172.16.100.1`
-* Ping ke `10.10.10.2`
-* Akses web melalui `http://10.10.10.2`
-* Ping gagal ke `192.168.10.10`
-* Ping gagal ke `192.168.20.10`
+* Konfigurasi IP Client WAN* <img width="879" height="497" alt="konfigurasi ip client WAN" src="https://github.com/user-attachments/assets/f4df5d02-ddf4-4953-8bcd-10a800b675de" />
+* Ping ke `172.16.100.1` (Gateway)* <img width="376" height="189" alt="Pengujian ping client WAN ke gateway" src="https://github.com/user-attachments/assets/e2f3c825-7796-4d93-a992-44c953e0cb2c" />
+* Ping ke `10.10.10.2` (FortiGate)* <img width="369" height="131" alt="Pengujian ping client WAN ke fortigate" src="https://github.com/user-attachments/assets/c9709547-2af9-4095-8a5f-8868a6e7a12b" />
+* Akses web melalui `http://10.10.10.2` * <img width="893" height="495" alt="pengujian akses web server DMZ dari client WAN melalui VIP" src="https://github.com/user-attachments/assets/82e57d0c-ce68-45f7-ab58-a2346fa09e37" />
+* Ping gagal ke `192.168.10.10` * <img width="363" height="57" alt="pengujian client WAN tidak dapat ping ke client LAN" src="https://github.com/user-attachments/assets/631de530-1afa-4084-b7b7-4e40d095d1ba" />
+* Ping gagal ke `192.168.20.10` * <img width="380" height="60" alt="pengujian client WAN tidak dapat ping langsung ke server DMZ" src="https://github.com/user-attachments/assets/267d08f2-63f4-4711-9a7f-3d851d05a365" />
 
 ---
 
 # 11. Konfigurasi Ubuntu Server DMZ
+### Konfigurasi IP Ubuntu Server Server DMZ
+<img width="892" height="147" alt="konfigurasi ip ubuntu server DMZ" src="https://github.com/user-attachments/assets/c0ad8a55-a89d-4b79-bd1d-2d9cfaf22175" />
+
+### Routing Table Ubuntu Server DMZ
+<img width="566" height="45" alt="routing table ubuntu server DMZ" src="https://github.com/user-attachments/assets/1d07cf1d-7d88-4179-bedb-eadb0027c463" />
+
+### Screenshot Status Nginx pada Ubuntu Server DMZ
+<img width="543" height="161" alt="Status nginx pada ubuntu server DMZ" src="https://github.com/user-attachments/assets/f62b6112-81cc-4327-8c72-faf2bf8ad1db" />
+
+### Pengujian Web Server dari Ubuntu Server DMZ
+<img width="445" height="35" alt="pengujian web server dari ubuntu server DMZ" src="https://github.com/user-attachments/assets/c724a688-3008-48a8-9ca4-b55678a8a62a" />
+
 
 ## 11.1 Tujuan
 
