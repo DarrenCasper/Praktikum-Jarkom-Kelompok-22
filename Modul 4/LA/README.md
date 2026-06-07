@@ -19,7 +19,8 @@ Tujuan dari tugas ini adalah:
 
 *Topologi Jaringan*
 
-![gambar1](assets/topologi%20tumod%20modul%204%20jarkom.png)
+<img width="772" height="826" alt="topologi tumod modul 4 jarkom" src="https://github.com/user-attachments/assets/d75123b1-e7b0-41f4-a2a9-701f32f0bb9e" />
+
 
 | Perangkat            | Fungsi                                           |
 | -------------------- | ------------------------------------------------ |
