@@ -19,7 +19,7 @@ Tujuan dari tugas ini adalah:
 
 *Topologi Jaringan*
 
-![gambar1](assets/topologi tumod modul 4 jarkom.png)
+![gambar1](assets/topologi%20tumod%20modul%204%20jarkom.png)
 
 | Perangkat            | Fungsi                                           |
 | -------------------- | ------------------------------------------------ |
