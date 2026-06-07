@@ -1,4 +1,4 @@
-# Tugas Modul 4 — Firewall dan NAT
+# Laporan Tugas Modul 4 — Firewall dan NAT
 
 ## 1. Overview
 
@@ -15,7 +15,10 @@ Tujuan dari tugas ini adalah:
 
 ---
 
-## 2. Perangkat yang Digunakan
+## 2. Topologi Jaringan dan Perangkat yang Digunakan
+
+*Topologi Jaringan*
+![gambar1](assets/topologi tumod modul 4 jarkom.png)
 
 | Perangkat            | Fungsi                                           |
 | -------------------- | ------------------------------------------------ |
