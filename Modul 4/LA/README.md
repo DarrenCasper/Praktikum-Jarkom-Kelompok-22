@@ -1,4 +1,4 @@
-<img width="826" height="908" alt="konfigurasi vip fortigate" src="https://github.com/user-attachments/assets/c2215bd9-2f3b-4bbe-bded-ef194c153464" /># Laporan Tugas Modul 4 — Firewall dan NAT
+# Laporan Tugas Modul 4 — Firewall dan NAT
 
 ## 1. Overview
 
